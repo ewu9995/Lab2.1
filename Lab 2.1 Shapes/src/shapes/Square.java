@@ -10,10 +10,21 @@ public class Square extends Rectangle {
 	}
 	
 
-	@Override
-	public String toString() {
-		// To be written by student
-		return "";
+	public double calculateArea() {
+		double area = side*side;
+		return area; 
 	}
 
+
+	public double calculatePerimeter() {
+		double perimeter = (4*side);
+		return perimeter;
+	}
+
+
+	public String toString() {
+		return "Square Side: " + side  + " Area: " + this.calculateArea() + " Perimeter: "	+ this.calculatePerimeter();
+	}
 }
+
+	
