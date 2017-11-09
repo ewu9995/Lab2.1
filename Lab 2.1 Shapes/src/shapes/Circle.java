@@ -19,19 +19,15 @@ public class Circle implements Shape {
 		this.radius = radius;
 	}
 
-	@Override
 	public double calculateArea() {
 		double area = (radius*radius*pi);
 		return area;
 	}
 
-	@Override
 	public double calculatePerimeter() {
 		double perimeter = (radius*2*pi);
 		return perimeter;
 	}
-
-	@Override
 	public String toString() {
 		return "Circle radius: " + radius + " Area: " + this.calculateArea() + " Perimeter: " + this.calculatePerimeter();
 	
