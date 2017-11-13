@@ -29,7 +29,7 @@ public class Circle implements Shape {
 		return perimeter;
 	}
 	public String toString() {
-		return "Circle radius: " + radius + " Area: " + this.calculateArea() + " Perimeter: " + this.calculatePerimeter();
+		return "Circle radius: " + radius + " Area: " + this.calculateArea() + " Circumference: " + this.calculatePerimeter();
 	
 	}
 }

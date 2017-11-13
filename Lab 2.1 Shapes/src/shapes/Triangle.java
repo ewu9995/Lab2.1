@@ -1,6 +1,6 @@
 package shapes;
 
-public class Triangle {
+public class Triangle implements Shape {
 	private int base;
 	private int height;
 	private int side;

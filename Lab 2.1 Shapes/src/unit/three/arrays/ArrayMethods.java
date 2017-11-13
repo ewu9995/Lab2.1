@@ -16,7 +16,7 @@ public class ArrayMethods {
 	
 	}
 	
-	public static int[][] pascalTriange(int n)
+	public static int[][] pascalTriangle(int n)
 	{
 		int[][] answer = new int[0][0];
 		return answer;

@@ -25,6 +25,8 @@ public class ShapeUtilities {
 			return new Rectangle(rand.nextInt(50), rand.nextInt(50));
 		case 2:
 			return new Square(rand.nextInt(50));
+		case 3:
+			return new Triangle(rand.nextInt(33), rand.nextInt(33), rand.nextInt(33));
 		default:
 			return new Circle(rand.nextInt(100));
 		}
@@ -38,8 +40,13 @@ public class ShapeUtilities {
 	 * @return double
 	 */
 	public static double sumArea(Shape[] shapes) {
-		double sumArea = sumArea;
+		double sumArea = 0;
+		for(int i = 0; i < shapes.length; i++)
+		{
+			sumArea = sumArea + shapes[i].calculateArea();
+		}
 		return sumArea;
+		
 	}
 
 	/**
@@ -49,8 +56,12 @@ public class ShapeUtilities {
 	 * @return double
 	 */
 	public static double sumPerimeter(Shape[] shapes) {
-		double sumPerimeter = Rectangle.calculatePerimeter() + Circle.calculatePerimeter() + Square.squarePerimeter();
+		double sumPerimeter = 0;
+		for(int i = 0; i < shapes.length; i++)
+		{
+			sumPerimeter = sumPerimeter + shapes[i].calculatePerimeter();
+		}
 		return sumPerimeter;
+		
 	}
-
 }
