@@ -25,8 +25,8 @@ public class Circle implements Shape {
 	}
 
 	public double calculatePerimeter() {
-		double perimeter = (radius*2*pi);
-		return perimeter;
+		double circlePerimeter = (radius*2*pi);
+		return circlePerimeter;
 	}
 	public String toString() {
 		return "Circle radius: " + radius + " Area: " + this.calculateArea() + " Perimeter: " + this.calculatePerimeter();

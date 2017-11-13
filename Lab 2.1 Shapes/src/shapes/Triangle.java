@@ -19,8 +19,8 @@ public class Triangle {
 
 
 	public double calculatePerimeter() {
-		double perimeter = base+height+side;
-		return perimeter;
+		double trianglePerimeter = base+height+side;
+		return trianglePerimeter;
 	}
 
 

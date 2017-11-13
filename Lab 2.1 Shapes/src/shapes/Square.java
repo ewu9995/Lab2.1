@@ -17,8 +17,8 @@ public class Square extends Rectangle {
 
 
 	public double calculatePerimeter() {
-		double perimeter = (4*side);
-		return perimeter;
+		double squarePerimeter = (4*side);
+		return squarePerimeter;
 	}
 
 

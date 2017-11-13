@@ -22,8 +22,8 @@ public class Rectangle implements Shape {
 
 
 	public double calculatePerimeter() {
-		double perimeter = (2*length) + (2*width);
-		return perimeter;
+		double rectanglePerimeter = (2*length) + (2*width);
+		return rectanglePerimeter;
 	}
 
 
