@@ -38,7 +38,7 @@ public class ShapeUtilities {
 	 * @return double
 	 */
 	public static double sumArea(Shape[] shapes) {
-		double sumArea = Rectangle.calculatePerimeter() + Circle.calculatePerimeter() + Square.squarePerimeter();
+		double sumArea = sumArea;
 		return sumArea;
 	}
 
@@ -49,8 +49,8 @@ public class ShapeUtilities {
 	 * @return double
 	 */
 	public static double sumPerimeter(Shape[] shapes) {
-		// To be written by student
-		return 0.0;
+		double sumPerimeter = Rectangle.calculatePerimeter() + Circle.calculatePerimeter() + Square.squarePerimeter();
+		return sumPerimeter;
 	}
 
 }

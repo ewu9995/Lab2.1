@@ -20,8 +20,8 @@ public class Circle implements Shape {
 	}
 
 	public double calculateArea() {
-		double area = (radius*radius*pi);
-		return area;
+		double circleArea = (radius*radius*pi);
+		return circleArea;
 	}
 
 	public double calculatePerimeter() {

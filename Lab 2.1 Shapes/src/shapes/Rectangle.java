@@ -16,8 +16,8 @@ public class Rectangle implements Shape {
 
 
 	public double calculateArea() {
-		double area = length*width;
-		return area; 
+		double rectangleArea = length*width;
+		return rectangleArea; 
 	}
 
 

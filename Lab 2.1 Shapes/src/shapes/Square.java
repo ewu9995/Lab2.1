@@ -11,8 +11,8 @@ public class Square extends Rectangle {
 	
 
 	public double calculateArea() {
-		double area = side*side;
-		return area; 
+		double squareArea = side*side;
+		return squareArea; 
 	}
 
 

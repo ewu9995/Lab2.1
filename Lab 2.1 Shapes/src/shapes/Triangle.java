@@ -13,8 +13,8 @@ public class Triangle {
 
 
 	public double calculateArea() {
-		double area = (base*height)/2;
-		return area; 
+		double triangleArea = (base*height)/2;
+		return triangleArea; 
 	}
 
 
