@@ -13,14 +13,14 @@ public class Triangle {
 
 
 	public double calculateArea() {
-		double triangleArea = (base*height)/2;
-		return triangleArea; 
+		double area = (base*height)/2;
+		return area; 
 	}
 
 
 	public double calculatePerimeter() {
-		double trianglePerimeter = base+height+side;
-		return trianglePerimeter;
+		double perimeter = base+height+side;
+		return perimeter;
 	}
 
 

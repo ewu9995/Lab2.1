@@ -20,13 +20,13 @@ public class Circle implements Shape {
 	}
 
 	public double calculateArea() {
-		double circleArea = (radius*radius*pi);
-		return circleArea;
+		double area = (radius*radius*pi);
+		return area;
 	}
 
 	public double calculatePerimeter() {
-		double circlePerimeter = (radius*2*pi);
-		return circlePerimeter;
+		double perimeter = (radius*2*pi);
+		return perimeter;
 	}
 	public String toString() {
 		return "Circle radius: " + radius + " Area: " + this.calculateArea() + " Perimeter: " + this.calculatePerimeter();

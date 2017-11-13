@@ -11,14 +11,14 @@ public class Square extends Rectangle {
 	
 
 	public double calculateArea() {
-		double squareArea = side*side;
-		return squareArea; 
+		double area = side*side;
+		return area; 
 	}
 
 
 	public double calculatePerimeter() {
-		double squarePerimeter = (4*side);
-		return squarePerimeter;
+		double perimeter = (4*side);
+		return perimeter;
 	}
 
 
