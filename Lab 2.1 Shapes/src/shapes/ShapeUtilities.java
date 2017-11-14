@@ -16,7 +16,7 @@ public class ShapeUtilities {
 	 */
 	public static Shape randomShape() {
 		Random rand = new Random();
-		int x = rand.nextInt(3);
+		int x = rand.nextInt(4);
 
 		switch (x) {
 		case 0:
