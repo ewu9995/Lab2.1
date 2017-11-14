@@ -1,5 +1,6 @@
 package shapes;
 
+
 public class Trapezoid implements Shape {
 	private int a;
 	private int b;
@@ -29,7 +30,7 @@ public class Trapezoid implements Shape {
 
 
 	public String toString() {
-		return "Trapezoid Width: " + b + " " + d  + " Length: " + a+" " +c + " Area: " + this.calculateArea() + " Perimeter: "
+		return "Trapezoid Width: " + b + ", " + d  + " Length: " + a+", " +c + " Area: " + this.calculateArea() + " Perimeter: "
 				+ this.calculatePerimeter();
 	}
 }

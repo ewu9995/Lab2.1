@@ -43,8 +43,7 @@ public class ShapeUtilities {
 	 */
 	public static double sumArea(Shape[] shapes) {
 		double sumArea = 0;
-		for(int x= 0; x < shapes.length; x++)
-		{
+		for ( int x = 0; x < shapes.length ;x++) {
 			sumArea = sumArea + shapes[x].calculateArea();
 		}
 		return sumArea;
@@ -58,9 +57,8 @@ public class ShapeUtilities {
 	 * @return double
 	 */
 	public static double sumPerimeter(Shape[] shapes) {
-		double sumPerimeter = 0;
-		for(int x= 0; x < shapes.length; x++)
-		{
+		double sumPerimeter = 0; 
+		for ( int x = 0; x < shapes.length ;x++) {
 			sumPerimeter = sumPerimeter + shapes[x].calculatePerimeter();
 		}
 		return sumPerimeter;
