@@ -26,13 +26,13 @@ public class ShapeUtilities {
 		case 2:
 			return new Square(rand.nextInt(50));
 		case 3:
-			return new Triangle(rand.nextInt(50), rand.nextInt(50), rand.nextInt(50));
+			return new Triangle(rand.nextInt(20), rand.nextInt(20), rand.nextInt(20));
 		case 4:
-			return new Trapezoid(rand.nextInt(50),rand.nextInt(50),rand.nextInt(50),rand.nextInt(50));
+			return new Trapezoid(rand.nextInt(20),rand.nextInt(20),rand.nextInt(20), rand.nextInt(20));
 		default:
 			return new Circle(rand.nextInt(100));
 		}
-
+ 
 	}
 
 	/**
