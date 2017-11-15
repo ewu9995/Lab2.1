@@ -1,6 +1,6 @@
 package shapes;
 
-//Evan Wu and Jeffrey Lau Period 2 Lab 2.1 shapes
+//Evan Wu and Jeffrey Lau Period 2 11/15/17 Lab 2.1 shapes
 	
 public class Rhombus implements Shape {
 		private int a;
