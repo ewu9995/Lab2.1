@@ -12,7 +12,7 @@ public class Triangle implements Shape {
 		this.c = side2;
 	}
 
-
+	//ONLY WORKS WITH NORMAL TRIANGLES
 	
 	//Heron's formula
 	//note: doesn't work if one number is an outlier due to sum of two sides must be greater than that of the largest side 
