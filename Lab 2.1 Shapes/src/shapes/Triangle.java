@@ -27,10 +27,10 @@ public class Triangle implements Shape {
 		double perimeter = a+b+c;
 		return perimeter;
 	}
-
+ 
  
 	public String toString() {
-		return "Triangle Base: " + a +  " Area: " + this.calculateArea() + " Perimeter: "
+		return "Triangle Base: " + b + " " + "Side1: " + a + " "+  " " + "Side2: " + c + " "+ " Area: " + this.calculateArea() + " Perimeter: "
 				+ this.calculatePerimeter();
 	}
 }
