@@ -1,6 +1,6 @@
-//Evan Wu and Jeffrey Lau Period 2 Lab 2.1 shapes
 package shapes;
 
+//Evan Wu and Jeffrey Lau Period 2 Lab 2.1 shapes
 
 public class Trapezoid implements Shape {
 	private int a;
@@ -8,7 +8,7 @@ public class Trapezoid implements Shape {
 	private int c;
 	private int d;
 	
-
+//only works for a regular trapezoid 
 	public Trapezoid(int length1, int width1, int length2, int width2) {
 		this.a = length1;
 		this.b = width1;
