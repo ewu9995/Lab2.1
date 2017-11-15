@@ -18,7 +18,7 @@ public class Runner {
 	public static void main(String[] args) {
 		Shape circle1 = new Circle(3); // Input: radius
 		Shape rectangle1 = new Rectangle(10, 4); //Input: length, width
-		Shape square1 = new Square(10); //side length
+		Shape square1 = new Square(10); //Input: side length
 		Shape triangle1 = new Triangle(3,4,5); //Input: side1, base, side2  
 		Shape rhombus1 = new Rhombus(1,2); //Input: diagonal 1, diagonal 2
 		
