@@ -15,6 +15,7 @@ public class Triangle implements Shape {
 
 	
 	//Heron's formula
+	//note: doesn't work if one number is an outlier due to sum of two sides must be greater than that of the largest side 
 	public double calculateArea() {
 		double p = (a+b+c)/2.0d;	
 		double area = Math.sqrt(p*(p-a)*(p-b)*(p-c));
