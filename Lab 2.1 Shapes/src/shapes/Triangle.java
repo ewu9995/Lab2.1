@@ -7,17 +7,17 @@ public class Triangle implements Shape {
 	private int c;
 
 	public Triangle(int base, int side1, int side2) {
-		this.a = base;
-		this.b = side1;
+		this.a = side1;
+		this.b = base;
 		this.c = side2;
 	}
 
 
 	
-	
+	//Heron's formula
 	public double calculateArea() {
-		int p = (a+b+c)/2;	
-		double area = (Math.sqrt(p*(p-a)*(p-b)*(p-c)));
+		double p = (a+b+c)/2.0d;	
+		double area = Math.sqrt(p*(p-a)*(p-b)*(p-c));
 		return area; 
 	}
 
@@ -27,7 +27,7 @@ public class Triangle implements Shape {
 		return perimeter;
 	}
 
-
+ 
 	public String toString() {
 		return "Triangle Base: " + a +  " Area: " + this.calculateArea() + " Perimeter: "
 				+ this.calculatePerimeter();
