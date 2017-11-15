@@ -20,7 +20,7 @@ public class Runner {
 		Shape rectangle1 = new Rectangle(10, 4);
 		Shape square1 = new Square(10);
 		Shape triangle1 = new Triangle(30,25,11);
-		Shape trapezoid1 = new Trapezoid(11,6,5,5);
+		Shape trapezoid1 = new Trapezoid(26,13,16,13);
 
 		System.out.println("First test out the hard coded shape arraay.\n\n");
 		Shape[] shapeArr = { circle1, rectangle1, square1, triangle1, trapezoid1};
