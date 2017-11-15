@@ -1,4 +1,4 @@
-)package shapes;
+package shapes;
 
 
 public class Trapezoid implements Shape {
@@ -17,7 +17,7 @@ public class Trapezoid implements Shape {
 
 
 	public double calculateArea() {
-		int x = ((b*b)-(d*d)+(a*c)(a*c))/(2(a-c));
+		int x = ((b*b)-(d*d)+(a-c)*(a-c))/(2*(a-c));
 		double area = (((a+c)/2) * Math.sqrt((b*b) - (x*x)));
 		return area; 
 	}
