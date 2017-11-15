@@ -1,3 +1,4 @@
+//Evan Wu and Jeffrey Lau Period 2 Lab 2.1 shapes
 package shapes;
 
 public class Triangle implements Shape {
