@@ -1,7 +1,7 @@
 package shapes;
 /**
  * @author Mr Levin Created 10/16/2017
- * 
+ * 	Evan Wu and Jeffrey Lau Period 2 Lab 2.1 shapes
  *         Lab 2.1 shapes Create implement all necessary methods in this package
  *         to run the code below successfully. After your code below runs
  *         successfully, you will design, implement, and test a couple of your
