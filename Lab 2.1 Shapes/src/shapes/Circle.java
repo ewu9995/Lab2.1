@@ -20,7 +20,7 @@ public class Circle implements Shape {
 	}
 	//A = r^2(pi)
 	public double calculateArea() {
-		double area = (radius*radius*pi);
+		double area = (Math.pow(radius, 2)*pi);
 		return area;
 	}
 	
