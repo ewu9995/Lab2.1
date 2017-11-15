@@ -16,11 +16,11 @@ package shapes;
 public class Runner {
 
 	public static void main(String[] args) {
-		Shape circle1 = new Circle(3);
-		Shape rectangle1 = new Rectangle(10, 4);
-		Shape square1 = new Square(10);
-		Shape triangle1 = new Triangle(30,25,11);
-		Shape trapezoid1 = new Trapezoid(26,13,16,13);
+		Shape circle1 = new Circle(3); //radius
+		Shape rectangle1 = new Rectangle(10, 4); //length, width
+		Shape square1 = new Square(10); //side legnth
+		Shape triangle1 = new Triangle(30,25,11); //base, side1, side2
+		Shape trapezoid1 = new Trapezoid(26,13,16,13); //length1(bottom base), width1(left side), length2(top base), width2(right side) 
 
 		System.out.println("First test out the hard coded shape arraay.\n\n");
 		Shape[] shapeArr = { circle1, rectangle1, square1, triangle1, trapezoid1};
