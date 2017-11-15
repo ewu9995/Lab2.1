@@ -14,16 +14,16 @@ package shapes;
  *         Both classes must extend shape, and implement all necessary methods.
  */
 public class Runner {
-	//NOTE: Triangle is ONLY for REGULAR triangles and Trapezoid is ONLY for REGULAR trapezoids!
+	//NOTE: Triangle is ONLY for REGULAR triangles!
 	public static void main(String[] args) {
-		Shape circle1 = new Circle(3); //radius
-		Shape rectangle1 = new Rectangle(10, 4); //length, width
+		Shape circle1 = new Circle(3); // Input: radius
+		Shape rectangle1 = new Rectangle(10, 4); //Input: length, width
 		Shape square1 = new Square(10); //side length
-		Shape triangle1 = new Triangle(72,76,52); // side1, base, side2  
-		Shape trapezoid1 = new Trapezoid(30,20,18,20); //length1(bottom base), width1(left side), length2(top base), width2(right side) 
+		Shape triangle1 = new Triangle(72,76,52); //Input: side1, base, side2  
+		Shape rhombus1 = new Rhombus(1,2); //Input: diagonal 1, diagonal 2
 		
-		System.out.println("First test out the hard coded shape arraay.\n\n");
-		Shape[] shapeArr = { circle1, rectangle1, square1, triangle1, trapezoid1};
+		System.out.println("First test out the hard coded shape array.\n\n");
+		Shape[] shapeArr = {circle1, rectangle1, square1, triangle1, rhombus1};
 
 		for (Shape shape : shapeArr) {
 			System.out.println(shape);

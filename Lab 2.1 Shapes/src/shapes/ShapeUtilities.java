@@ -28,7 +28,7 @@ public class ShapeUtilities {
 		case 3:
 			return new Triangle(rand.nextInt(20), rand.nextInt(20), rand.nextInt(20));
 		case 4:
-			return new Trapezoid(rand.nextInt(20),rand.nextInt(20),rand.nextInt(20), rand.nextInt(20));
+			return new Rhombus(rand.nextInt(20),rand.nextInt(20));
 		default:
 			return new Circle(rand.nextInt(100));
 		}
@@ -43,6 +43,7 @@ public class ShapeUtilities {
 	 */
 	public static double sumArea(Shape[] shapes) {
 		double sumArea = 0;
+		//starts with 0 will add value using for loop
 		for ( int x = 0; x < shapes.length ;x++) {
 			sumArea = sumArea + shapes[x].calculateArea();
 		}
@@ -58,6 +59,7 @@ public class ShapeUtilities {
 	 */
 	public static double sumPerimeter(Shape[] shapes) {
 		double sumPerimeter = 0; 
+		//starts with 0 will add value using for loop
 		for ( int x = 0; x < shapes.length ;x++) {
 			sumPerimeter = sumPerimeter + shapes[x].calculatePerimeter();
 		}

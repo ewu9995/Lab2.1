@@ -22,7 +22,7 @@ public class Triangle implements Shape {
 		return area; 
 	}
 
-
+	//perimeter = add all sides up
 	public double calculatePerimeter() {
 		double perimeter = a+b+c;
 		return perimeter;

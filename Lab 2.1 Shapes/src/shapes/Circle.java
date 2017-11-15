@@ -18,12 +18,13 @@ public class Circle implements Shape {
 	public Circle(int radius) {
 		this.radius = radius;
 	}
-
+	//A = r^2(pi)
 	public double calculateArea() {
 		double area = (radius*radius*pi);
 		return area;
 	}
-
+	
+	//circumference = pi(2)(r) or (pi)(d)
 	public double calculatePerimeter() {
 		double perimeter = (radius*2*pi);
 		return perimeter;

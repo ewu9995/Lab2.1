@@ -11,13 +11,13 @@ public class Square extends Rectangle {
 		this.side = side;
 	}
 	
-
+	//A = s^2
 	public double calculateArea() {
 		double area = side*side;
 		return area; 
 	}
 
-
+	//P = 4s
 	public double calculatePerimeter() {
 		double perimeter = (4*side);
 		return perimeter;

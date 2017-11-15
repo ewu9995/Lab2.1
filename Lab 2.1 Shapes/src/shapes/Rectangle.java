@@ -14,13 +14,13 @@ public class Rectangle implements Shape {
 		this.width = width;
 	}
 
-
+	//A = lw
 	public double calculateArea() {
 		double area = length*width;
 		return area; 
 	}
 
-
+	//P = 2l+2w
 	public double calculatePerimeter() {
 		double perimeter = (2*length) + (2*width);
 		return perimeter;
